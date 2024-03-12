@@ -2,7 +2,7 @@ import axios from "axios";
  
 const api = axios.create({
   // make sure you use PORT = 5005 (the port where our server is running)
-  baseURL: import.meta.env.REACT_APP_API_URL,
+  baseURL: import.meta.env.REACT_APP_DEPLOYMENT_URL,
 });
 
 const signUp = ({ username, password, course, campus }) => {
