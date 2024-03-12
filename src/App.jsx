@@ -4,6 +4,7 @@ import SignupPage from './pages/SignupPage';
 import LoginPage from './pages/LoginPage';
 import './App.css';
 
+console.log('vite env', import.meta.env)
 function App() {
   return (
     <div className="App">
